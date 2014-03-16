@@ -1,0 +1,87 @@
+/*Medida para tablets horizontal*/
+@media screen and (max-width:1024px){
+	header nav ul li {
+		margin:0px 5px 10px 0px;
+		background:#bf2222;
+		padding:10px;
+	}
+
+	header nav ul li a:hover {
+		color:#fff;
+	}
+
+	#main #no-slide {
+		display:none;
+	}
+
+	#main #articles_list #pagination p a {
+		margin:10px 20px 10px 20px;
+		background:#bf2222;
+		color:#fff;
+		padding:10px;
+	}
+
+	footer .widget {
+		width:50%;
+	}
+
+	.widget ul li {
+		border-bottom:1px solid #333333;
+		padding:5px 0px;
+	}
+
+}
+
+/*Medida para tablets en vertical*/
+@media screen and (max-width:768px){
+	header #logo {
+		width:100%;
+		background:#333333;
+	}
+
+	header #logo p {
+		text-align:center;
+	}
+
+	header #logo span {
+		text-align:center;
+		left:50px;
+	}
+
+	header nav {
+		width:100%;
+		float:left;
+		margin-top:10px;
+	}
+
+	header nav ul {
+		float:left;
+	}
+
+	#main #articles_list {
+		width:100%;
+	}
+
+	#main aside {
+		width:100%;
+		clear:both;
+	}
+
+	.widget {
+		margin-bottom:40px;
+		width:100%;
+	}
+}
+
+/*Medida smartphones*/
+@media screen and (max-width:400px){
+	#main #articles_list article .thumb {
+		width:100%;
+		float:left;
+		margin-bottom:20px;
+	}
+
+	footer .widget {
+		width:100%;
+	}
+}
