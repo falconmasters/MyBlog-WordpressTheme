@@ -7,6 +7,20 @@ Author: Carlos Arturo
 Author URL: direccion web del autor
 */
 
+/*Estilos generales alineaciones para el articulo*/
+.center {text-align: center;}
+img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+img.alignleft, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}
+.alignright {float: right;}
+img.alignright, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;height:0px;}
+
+#articles_list article p {
+	margin-bottom:15px;
+}
+
 /*-----Estilos Generales-----*/
 * {
 	margin:0px;
@@ -318,7 +332,7 @@ footer #copyright {
 /*Comentarios *importante borrrar */
 #main #articles_list #comentarios {
 	margin-bottom:40px;
-	margin-right:4%;
+	margin-right:4%; 
 }
 
 #main #articles_list #comentarios > h3 {
@@ -330,6 +344,5 @@ footer #copyright {
 }
 
 #main #articles_list #caja_comentarios {
-	height:70px;
 	background:#ccc;
 }

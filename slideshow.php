@@ -1,4 +1,5 @@
 			<section id="slideshow">
+				<?php // query_posts('category_name=slider'); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				
 				<div class="slide">
@@ -13,6 +14,6 @@
 				</div>
 
 				<?php endwhile; else: ?>
-				//Aqui el codigo que se ejecutara si no encuentra articulos.
+				<h1>No se encontraron articulos</h1>
 				<?php endif; ?>
 			</section>
